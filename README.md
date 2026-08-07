@@ -10,20 +10,24 @@ This project is a RESTful WorkTrack API built using Python, Flask, SQLAlchemy, a
 - Retrieve all employees
 - Retrieve an employee by ID
 - Add a new employee
-Update a existing employee
-Delete an employee
-JSON-based request and response handling
-MySQL database integration using SQLAlchemy
-API testing with Postman
-Automated testing using pytest
+- Update a existing employee
+- Delete an employee
+- JSON-based request and response handling
+- MySQL database integration using SQLAlchemy
+- API testing with Postman
+- Automated testing using pytest
 
 
 ## Technologies
 
-- Python
+- Python 3
 - Flask
-- MySQL
 - SQLAlchemy
+- PyMySQL
+- MySQL
+- Postman
+- pytest
+- Git & GitHub
 
 ## Screenshots Of Postman
 <img width="1004" height="666" alt="Screenshot 2026-08-05 110559" src="https://github.com/user-attachments/assets/a1d5c5df-479d-4bfe-8e9c-5ccdfbdcdc04" />
@@ -43,3 +47,10 @@ POST /employees
 PUT /employees/{id}
 
 DELETE /employees/{id}
+
+## Future Improvements
+- User authentication and authorization.
+- Input validation and better error handling.
+- Pagination and search functionality.
+- Docker support.
+- Deployment to a cloud platform such as AWS or Render.
