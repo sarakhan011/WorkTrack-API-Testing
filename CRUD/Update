@@ -1,0 +1,34 @@
+from sqlalchemy import text
+
+def create_employee(data):
+
+    with engine.begin() as connection:
+
+        result = connection.execute(
+            text("""
+                INSERT INTO employee
+                (FirstName, LastName, Email, Phone, Department, Position, Salary, HireDate, Status)
+                VALUES
+                (:FirstName, :LastName, :Email, :Phone, :Department :Position, :Salary, :HireDate, :Status)
+            """),
+            {
+                "FirstName": data["Madison"],
+                "LastName": data["Beer"],
+                "Email": data["madison@123"],
+                "Phone": data["078923456"],
+                "Department": data["HR"],
+                "Position": data["Associate Manager"],
+                "Salary": data["Salary"],
+                "HireDate": data["24-04-2024"],
+                "Status": data["Active"]
+               
+            }
+        )
+
+        employee_id = result.lastrowid
+
+    return {
+        "EmployeeID": employee_id,
+        **data
+}
+    }
