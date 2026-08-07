@@ -20,6 +20,7 @@ REST API for managing employee records.
 ## Screenshots Of Postman
 <img width="1004" height="666" alt="Screenshot 2026-08-05 110559" src="https://github.com/user-attachments/assets/a1d5c5df-479d-4bfe-8e9c-5ccdfbdcdc04" />
 <img width="1016" height="681" alt="Screenshot 2026-08-05 110713" src="https://github.com/user-attachments/assets/4a1d1f40-67a5-43e5-8dcf-9ac1c0406a77" />
+<img width="1026" height="704" alt="Screenshot 2026-08-07 062446" src="https://github.com/user-attachments/assets/d2dc9352-b6f0-47c8-9b56-e9f7e41e8c72" />
 
 
 
