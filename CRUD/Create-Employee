@@ -1,0 +1,10 @@
+from flask import Flask, request, jsonify
+
+@app.route("/employees", methods=["POST"])
+def add_employee():
+
+    data = request.get_json()
+
+    employee = create_employee(data)
+
+    return jsonify(employee), 201
