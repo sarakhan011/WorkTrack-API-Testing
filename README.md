@@ -1,14 +1,22 @@
 # WorkTrack-API-Testing
 # Employee Management API
 
-REST API for managing employee records.
+## Overview
+
+This project is a RESTful WorkTrack API built using Python, Flask, SQLAlchemy, and MySQL. It provides complete CRUD (Create, Read, Update, Delete) functionality for managing employee records through HTTP requests. The API can be tested using Postman and includes automated tests written with pytest.
 
 ## Features
 
-- View employees
-- Add employees
-- Update employee information
-- Delete employees
+- Retrieve all employees
+- Retrieve an employee by ID
+- Add a new employee
+Update a existing employee
+Delete an employee
+JSON-based request and response handling
+MySQL database integration using SQLAlchemy
+API testing with Postman
+Automated testing using pytest
+
 
 ## Technologies
 
